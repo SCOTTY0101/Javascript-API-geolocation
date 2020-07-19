@@ -10,7 +10,7 @@ Running on ES6.
          });
      }
      else {
-         console.log(`geolocation is not supported by this browser.`);
+         console.log("Geolocation is not supported by this browser.");
      }
  }
  getLocation();
