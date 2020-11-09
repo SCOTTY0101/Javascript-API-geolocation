@@ -3,7 +3,7 @@ Running on ES6.
  */
 
  getLocation = () => {
-     if(navigator.geolocation) {
+     if (navigator.geolocation) {
          navigator.geolocation.getCurrentPosition(position => {
              console.log(`Longitude: ${position.coords.longitude}`);
              console.log(`Latitude: ${position.coords.latitude}`);
